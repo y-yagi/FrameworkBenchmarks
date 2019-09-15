@@ -64,6 +64,28 @@
       "display_name": "rails-unicorn-mri",
       "notes": "",
       "versus": "rack-unicorn-mri"
+    },
+    "falcon": {
+      "json_url": "/hello_world/json",
+      "db_url": "/hello_world/db",
+      "query_url": "/hello_world/query?queries=",
+      "fortune_url": "/fortune",
+      "update_url": "/update?queries=",
+      "plaintext_url": "/plaintext",
+      "port": 8080,
+      "approach": "Realistic",
+      "classification": "Fullstack",
+      "database": "MySQL",
+      "framework": "rails",
+      "language": "Ruby",
+      "orm": "Full",
+      "platform": "Rack",
+      "webserver": "Falcon",
+      "os": "Linux",
+      "database_os": "Linux",
+      "display_name": "rails-falcon-mri",
+      "notes": "",
+      "versus": "rack-falcon-mri"
     }
   }]
 }
