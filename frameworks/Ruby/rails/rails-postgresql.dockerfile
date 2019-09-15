@@ -4,6 +4,7 @@ ADD ./ /rails
 
 WORKDIR /rails
 
+RUN gem install bundler
 RUN bundle install --jobs=4 --gemfile=/rails/Gemfile --path=/rails/rails/bundle --without mysql
 
 ENV DBTYPE=postgresql
