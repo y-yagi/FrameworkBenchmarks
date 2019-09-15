@@ -2,6 +2,8 @@ source 'http://rubygems.org'
 
 gem 'unicorn'
 gem 'puma'
+gem 'falcon'
+gem 'iodine'
 gem 'activerecord-import'
 gem 'activerecord'
 gem 'rails'
